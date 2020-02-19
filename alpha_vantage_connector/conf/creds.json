@@ -1,0 +1,32 @@
+{
+    "api_key": "API KEY HERE",
+    "settings_index": {
+        "settings": {
+            "number_of_shards": 1,
+            "number_of_replicas": 0
+        },
+        "mappings": {
+            "dynamic": "strict",
+            "properties": {
+                "date": {
+                    "type": "date"
+                },
+                "open": {
+                    "type": "double"
+                },
+                "high": {
+                    "type": "double"
+                },
+                "low": {
+                    "type": "double"
+                },
+                "close": {
+                    "type": "double"
+                },
+                "volume": {
+                    "type": "double"
+                }
+            }
+        }
+    }
+}
